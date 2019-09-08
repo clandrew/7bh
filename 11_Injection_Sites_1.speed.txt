@@ -1,0 +1,21 @@
+-- 7 Billion Humans (2214M) --
+-- 11: Injection Sites 1 --
+-- size: 11/5 --
+-- speed: 6/7 --
+
+pickup s
+step s
+step s
+step s
+step s
+a:
+if e == datacube and
+ c == nothing:
+	drop
+else:
+	step s
+	step s
+	jump a
+endif
+
+

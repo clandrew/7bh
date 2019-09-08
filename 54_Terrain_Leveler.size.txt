@@ -1,0 +1,35 @@
+-- 7 Billion Humans (2214M) --
+-- 54: Terrain Leveler --
+-- size: 22/26 --
+-- speed: 110/90 --
+
+a:
+mem1 = calc mem1 + n
+if c != datacube or
+ n == datacube:
+	step n
+	jump a
+endif
+if w == worker:
+	listenfor ok
+endif
+mem1 = calc mem1 + w
+pickup c
+write mem1
+drop
+tell e ok
+if e == nothing:
+	mem1 = calc mem1 / 49
+else:
+	listenfor ready
+	mem1 = set e
+endif
+b:
+pickup c
+write mem1
+drop
+tell w ready
+step s
+jump b
+
+

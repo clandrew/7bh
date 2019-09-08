@@ -1,0 +1,28 @@
+-- 7 Billion Humans (2214M) --
+-- 68: Goodbye, Humans! --
+-- size: 9/9 --
+-- speed: 107/50 --
+-- Not 100% correct (21/25) --
+
+a:
+b:
+if nw == wall or
+ sw == hole:
+	step e,se
+	jump b
+endif
+if e == hole:
+	step w,sw,s
+endif
+if nw == nothing and
+ n == nothing and
+ ne == nothing and
+ w == wall and
+ e == wall and
+ s == hole:
+	tell everyone goodbye
+endif
+step sw,s,se
+jump a
+
+

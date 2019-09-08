@@ -1,0 +1,39 @@
+-- 7 Billion Humans (2214M) --
+-- 42: Important Email Organization --
+-- size: 18/18 --
+-- speed: 455/200 --
+
+a:
+b:
+if myitem == nothing:
+	if n != wall:
+		step nw,n,ne
+		jump b
+	endif
+	mem1 = nearest datacube
+	step mem1
+endif
+if c == mem1 and
+ sw != shredder and
+ s != shredder and
+ se != shredder or
+ myitem == something:
+	pickup mem1
+	mem2 = calc mem1 / 10
+	mem3 = nearest shredder
+	step mem3
+	if mem2 < c:
+		step w
+	endif
+	if mem2 > c:
+		step e
+	endif
+	if c == mem2 and
+	 myitem != nothing:
+		giveto s
+	endif
+endif
+jump a
+
+
+--

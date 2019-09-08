@@ -1,0 +1,76 @@
+-- 7 Billion Humans (2214M) --
+-- 30: Fill the Floor --
+-- size: 63/6 --
+-- speed: 155/170 --
+
+mem1 = nearest printer
+if n == nothing and
+ s == nothing:
+	step s
+	takefrom s
+	step sw
+	step se
+	step se
+	step e
+	step e
+	step e
+	step e
+	step e
+	step e
+	drop
+	step w
+	takefrom mem1
+	step se
+	step se
+	step e
+	step e
+	step e
+	step e
+	step e
+	drop
+	takefrom mem1
+	step e
+	step se
+	step se
+	step e
+	step e
+	step e
+	drop
+	takefrom mem1
+	step se
+	step se
+	step se
+	step e
+	step e
+	step e
+	drop
+	takefrom mem1
+	step se
+	step e
+	step se
+	step se
+	step e
+	drop
+	takefrom mem1
+	step se
+	step e
+	step se
+	step e
+	step e
+	drop
+	jump a
+else:
+	a:
+	b:
+	takefrom mem1
+	c:
+	step nw,w,sw,n,s,ne,e,se
+	if c == nothing:
+		drop
+		jump b
+	else:
+		jump c
+	endif
+endif
+
+

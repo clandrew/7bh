@@ -1,0 +1,16 @@
+-- 7 Billion Humans (2214M) --
+-- 32: Creative Writhing --
+-- size: 6/6 --
+-- speed: 303/39 --
+
+a:
+if c == datacube and
+ c < 99:
+	pickup c
+	write 99
+	drop
+endif
+step nw,w,sw,n,s,ne,e,se
+jump a
+
+

@@ -1,0 +1,112 @@
+-- 7 Billion Humans (2214M) --
+-- 53: 100 Cubes on the Floor --
+-- size: 79/16 --
+-- speed: 47/80 --
+
+if sw == worker and
+ se != wall and
+ mem1 == 0:
+	mem1 = set 5
+	step w
+	step w
+endif
+if nw == worker and
+ mem1 == 0:
+	mem1 = set 2
+	step w
+endif
+if w != datacube and
+ ne == nothing and
+ e == nothing and
+ se == nothing:
+	mem1 = set 6
+	step w
+endif
+if w == datacube and
+ s != wall and
+ n != wall and
+ n != worker and
+ mem1 == 0:
+	mem1 = set 4
+endif
+if n == worker and
+ mem1 == 0:
+	mem1 = set 1
+endif
+if ne == wall and
+ e == wall and
+ sw != wall:
+	mem1 = set 3
+	step w
+	step w
+	step w
+endif
+if s == wall and
+ e == wall:
+	mem1 = set 7
+	step w
+	step w
+	step w
+endif
+if e == wall and
+ ne != wall:
+	mem1 = set 8
+	step w
+endif
+if sw == wall and
+ se == wall and
+ e != wall:
+	mem1 = set 9
+endif
+step w
+mem1 = calc mem1 x 10
+pickup c
+write mem1
+drop
+step w
+mem1 = calc mem1 + 1
+pickup c
+write mem1
+drop
+step w
+mem1 = calc mem1 + 1
+pickup c
+write mem1
+drop
+step w
+mem1 = calc mem1 + 1
+pickup c
+write mem1
+drop
+step w
+mem1 = calc mem1 + 1
+pickup c
+write mem1
+drop
+step w
+mem1 = calc mem1 + 1
+pickup c
+write mem1
+drop
+step w
+mem1 = calc mem1 + 1
+pickup c
+write mem1
+drop
+step w
+mem1 = calc mem1 + 1
+pickup c
+write mem1
+drop
+step w
+mem1 = calc mem1 + 1
+pickup c
+write mem1
+drop
+step w
+mem1 = calc mem1 + 1
+pickup c
+write mem1
+drop
+
+

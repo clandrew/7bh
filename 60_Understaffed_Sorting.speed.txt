@@ -1,0 +1,29 @@
+-- 7 Billion Humans (2214M) --
+-- 60: Understaffed Sorting --
+-- size: 14/12 --
+-- speed: 198/200 --
+
+a:
+if sw > s and
+ sw == datacube and
+ s == datacube:
+	step w
+endif
+if s > se and
+ w != worker and
+ s == datacube and
+ se == datacube:
+	pickup s
+	drop
+	pickup se
+	step s
+	drop
+	step e
+	pickup nw
+	drop
+	step nw,ne
+endif
+step w,e
+jump a
+
+

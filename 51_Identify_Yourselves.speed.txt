@@ -1,0 +1,33 @@
+-- 7 Billion Humans (2214M) --
+-- 51: Identify Yourselves --
+-- size: 21/7 --
+-- speed: 20/27 --
+
+step s
+pickup c
+if w == nothing:
+	write 1
+	drop
+	end
+endif
+if e == nothing:
+	write 10
+	drop
+	end
+endif
+a:
+if w == datacube:
+	mem1 = calc w + 1
+	write mem1
+	drop
+	end
+endif
+if e == datacube:
+	mem1 = calc e - 1
+	write mem1
+	drop
+	end
+endif
+jump a
+
+

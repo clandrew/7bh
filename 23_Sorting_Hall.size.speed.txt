@@ -1,0 +1,16 @@
+-- 7 Billion Humans (2214M) --
+-- 23: Sorting Hall --
+-- size: 6/6 --
+-- speed: 25/26 --
+
+pickup s
+a:
+if myitem < w:
+	step w
+endif
+if myitem > e:
+	step e
+endif
+jump a
+
+

@@ -1,0 +1,75 @@
+-- 7 Billion Humans (2214M) --
+-- 52: The Mode Code --
+-- size: 51/24 --
+-- speed: 153/158 --
+
+mem2 = set s
+if w == nothing:
+	step nw
+else:
+	if e == nothing:
+		mem1 = set 5
+		step nw
+		step nw
+		step sw
+		step sw
+		step w
+		step w
+	else:
+		if w == nothing:
+			mem1 = set 1
+			step w
+			step nw
+		else:
+			step sw
+			step nw
+			step w
+			if s == nothing and
+			 se == datacube:
+				mem1 = set 2
+				step n
+			else:
+				if s == datacube and
+				 sw == nothing:
+					mem1 = set 3
+					step nw
+				else:
+					if sw == datacube and
+					 s == datacube:
+						mem1 = set 4
+						step nw
+						step w
+					endif
+				endif
+			endif
+		endif
+	endif
+endif
+a:
+b:
+if n == mem1:
+	mem4 = calc mem4 + 1
+endif
+step n
+if n == datacube:
+	jump a
+endif
+step se
+c:
+if n == mem1:
+	mem4 = calc mem4 + 1
+endif
+step s
+if n == datacube:
+	jump c
+endif
+step ne
+if e != wall:
+	jump b
+endif
+pickup mem2
+write mem4
+drop
+end
+
+

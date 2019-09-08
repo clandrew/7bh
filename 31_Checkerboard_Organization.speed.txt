@@ -1,0 +1,22 @@
+-- 7 Billion Humans (2214M) --
+-- 31: Checkerboard Organization --
+-- size: 8/7 --
+-- speed: 93/100 --
+
+mem1 = nearest printer
+a:
+takefrom mem1
+step w,n,e
+b:
+step nw,sw,ne,se
+if nw == datacube or
+ ne == datacube or
+ sw == datacube or
+ se == datacube and
+ c == nothing:
+	drop
+	jump a
+endif
+jump b
+
+

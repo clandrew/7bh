@@ -1,0 +1,22 @@
+-- 7 Billion Humans (2214M) --
+-- 12: Unzip --
+-- size: 11/8 --
+-- speed: 7/7 --
+
+pickup c
+if w == wall:
+	step n
+	drop
+endif
+a:
+if nw == worker:
+	step s
+	drop
+endif
+if sw == worker:
+	step n
+	drop
+endif
+jump a
+
+

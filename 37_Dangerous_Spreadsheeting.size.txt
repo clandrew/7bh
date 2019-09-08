@@ -1,0 +1,25 @@
+-- 7 Billion Humans (2214M) --
+-- 37: Dangerous Spreadsheeting --
+-- size: 13/13 --
+-- speed: 34/32 --
+
+a:
+mem1 = calc mem1 + c
+if e == hole:
+	step se
+	if ne == hole:
+		step e
+	endif
+	step ne
+else:
+	step e
+endif
+if e == wall and
+ c == 0:
+	pickup c
+	write mem1
+	drop
+endif
+jump a
+
+

@@ -1,0 +1,51 @@
+-- 7 Billion Humans (2214M) --
+-- 63: Defrag Disordered --
+-- size: 24/28 --
+-- speed: 388/95 --
+
+if w != hole or
+ s != hole:
+	end
+endif
+a:
+b:
+if s != hole:
+	step s
+	jump b
+endif
+mem1 = nearest datacube
+pickup mem1
+c:
+if n != hole:
+	step n
+	jump c
+endif
+d:
+if w != hole:
+	step w
+	jump d
+endif
+comment 0
+e:
+if c == nothing:
+	drop
+	jump a
+endif
+if e != hole:
+	step e
+else:
+	step sw
+	f:
+	if w != hole:
+		step w
+		jump f
+	endif
+endif
+jump e
+
+
+DEFINE COMMENT 0
+eJztjk0KgmAURc8qHEQ7qDVIgwYhFaXTD/pBQk3CwEE/IJeQVhAR4TJaYM/W0NADF87g8t4dYEwYWT6t
+EuAzw9eSMRGBIpxCYubk1snbihxTViSsydhQaEtJSqnMfM/O4swXSuxGS0xPKR4HPB3pq2SoEyFnnOXO
+hQdXXqpodKOh5q2a5+9XYRsqW1Xbgo6Ojr/zBWxcJw4;
+

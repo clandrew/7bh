@@ -1,0 +1,14 @@
+-- 7 Billion Humans (2214M) --
+-- 48: Community Training Day --
+-- size: 6/6 --
+-- speed: 7/8 --
+
+if n != wall:
+	listenfor ready
+endif
+takefrom s
+mem1 = nearest shredder
+giveto mem1
+tell everyone ready
+
+

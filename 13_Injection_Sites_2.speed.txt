@@ -1,0 +1,40 @@
+-- 7 Billion Humans (2214M) --
+-- 13: Injection Sites 2 --
+-- size: 29/10 --
+-- speed: 10/55 --
+
+pickup s
+step s
+step s
+step s
+step e
+step e
+if c == nothing:
+	drop
+endif
+step s
+step s
+step w
+step w
+step w
+if c == nothing:
+	drop
+endif
+step s
+step s
+step e
+step e
+step e
+step e
+step e
+step e
+if c == nothing:
+	drop
+endif
+step s
+step s
+if c == nothing:
+	drop
+endif
+
+

@@ -1,0 +1,48 @@
+-- 7 Billion Humans (2214M) --
+-- 68: Goodbye, Humans! --
+-- size: 24/9 --
+-- speed: 49/50 --
+
+a:
+b:
+c:
+d:
+e:
+if sw == wall and
+ se == wall:
+	mem1 = nearest worker
+	if mem1 == nothing:
+		tell everyone goodbye
+	endif
+	step s
+	step s
+endif
+if w != wall and
+ e != wall and
+ w != hole and
+ e != hole:
+	step s
+	jump a
+endif
+if n == wall:
+	step s
+	step s
+	step s
+	step s
+	jump e
+endif
+if w == wall or
+ w == hole:
+	step e
+	step se
+	jump b
+endif
+if e == wall or
+ e == hole:
+	step sw
+	step sw
+	jump c
+endif
+jump d
+
+

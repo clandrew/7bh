@@ -1,0 +1,62 @@
+-- 7 Billion Humans (2214M) --
+-- 67: Decimal Doubler --
+-- size: 41/25 --
+-- speed: 219/250 --
+
+pickup s
+step s
+step s
+if c == button:
+	comment 0
+	a:
+	step n
+	tell everyone go
+	listenfor ok
+	step s
+	jump a
+endif
+if e != switch:
+	drop
+	step se
+	step nw
+	pickup c
+	write 2
+	drop
+	step se
+	step nw
+	pickup c
+	write 4
+	drop
+	step se
+	step nw
+	pickup c
+	write 8
+	tell everyone ok
+endif
+b:
+drop
+listenfor go
+mem2 = calc c x 2
+if mem2 >= 10:
+	mem2 = calc mem2 - 10
+else:
+	mem2 = calc mem2 + 0
+endif
+if e >= 5:
+	mem2 = calc mem2 + 1
+else:
+	mem2 = calc mem2 + 0
+endif
+pickup c
+write mem2
+tell everyone ok
+jump b
+
+
+DEFINE COMMENT 0
+eJztkMtKQmEUhb/H6AGiJ2iQQSGHRhESQlEQ0UVDQqyszMJyNZEgsagI7SKHokNFSDlq0KQ3ax19isAF
+H/yX9e+19z+HlWBICYaZIFCSvLmJjxWQYZqMUuRIs600FWapkeJMM9Q1xRUBtz3vIgUtc2farPDEmlkn
+JEvDVJSlHPt8F7DKJJuMqmC2GNMO8yqyxK7r7fNBiU8d0OXYVOnohKiXUXD+oYlVJmnGVWFEVfd+zoLq
+Tm24j4ZvLgh1ybuuXaNJVy2vW0Rquq9Yp5TsL9m/19s/UNY9OT165hfPHLGhV/K8UTRHeqam0LT7c6jj
+f+r2Z+fL/m9n//j9r9MGGugf6Q80nlr4;
+

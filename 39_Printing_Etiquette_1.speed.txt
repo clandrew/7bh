@@ -1,0 +1,194 @@
+-- 7 Billion Humans (2214M) --
+-- 39: Printing Etiquette 1 --
+-- size: 182/9 --
+-- speed: 43/55 --
+
+if nw == worker and
+ ne == worker:
+	step sw
+	takefrom sw
+	step n
+	step n
+	step n
+	step nw
+	drop
+	step se
+	step s
+	step s
+	step s
+	takefrom s
+	step n
+	step n
+	step n
+	step n
+	drop
+	step s
+	step s
+	step s
+	step s
+	takefrom s
+	step n
+	step n
+	step n
+	drop
+	step s
+	step s
+	step s
+	takefrom s
+	step n
+	step n
+	drop
+	step s
+	step s
+	takefrom s
+	step ne
+	step n
+	drop
+	end
+endif
+step nw
+if nw != nothing:
+	step sw
+	step se
+	step se
+	step se
+	takefrom se
+	step nw
+	step n
+	step nw
+	drop
+	step se
+	step s
+	step s
+	takefrom se
+	step nw
+	step n
+	step n
+	drop
+	step s
+	step s
+	step s
+	takefrom se
+	step nw
+	step n
+	step n
+	step nw
+	drop
+	step s
+	step s
+	step se
+	step s
+	takefrom se
+	step nw
+	step n
+	drop
+	step s
+	step s
+	takefrom se
+	step nw
+	drop
+	end
+endif
+step se
+step se
+if se == wall:
+	step nw
+	step w
+	step w
+	step w
+	takefrom sw
+	step e
+	step e
+	step e
+	drop
+	step w
+	step w
+	takefrom sw
+	step ne
+	step e
+	step e
+	drop
+	step sw
+	step sw
+	takefrom w
+	step ne
+	step ne
+	drop
+	step sw
+	step sw
+	takefrom s
+	step ne
+	step e
+	drop
+	step w
+	step sw
+	takefrom s
+	drop
+	end
+endif
+step sw
+if sw == printer:
+	takefrom sw
+	step nw
+	step w
+	step w
+	step w
+	drop
+	step e
+	step e
+	step e
+	step se
+	takefrom s
+	step nw
+	step w
+	step w
+	step nw
+	drop
+	step se
+	step se
+	step e
+	takefrom se
+	step nw
+	step nw
+	step w
+	drop
+	step se
+	step se
+	takefrom se
+	step w
+	step w
+	step nw
+	drop
+	step se
+	step e
+	takefrom se
+	step w
+	step nw
+	drop
+	end
+else:
+	step sw
+	step nw
+	takefrom sw
+	step se
+	step e
+	drop
+	step nw
+	takefrom sw
+	step se
+	drop
+	takefrom w
+	step se
+	step ne
+	drop
+	step w
+	takefrom sw
+	step e
+	drop
+	takefrom sw
+	step sw
+	drop
+	end
+endif
+
+

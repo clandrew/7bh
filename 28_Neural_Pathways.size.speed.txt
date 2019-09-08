@@ -1,0 +1,11 @@
+-- 7 Billion Humans (2214M) --
+-- 28: Neural Pathways --
+-- size: 4/4 --
+-- speed: 51/51 --
+
+mem1 = nearest datacube
+pickup mem1
+mem2 = nearest shredder
+giveto mem2
+
+

@@ -1,0 +1,20 @@
+-- 7 Billion Humans (2214M) --
+-- 53: 100 Cubes on the Floor --
+-- size: 9/16 --
+-- speed: 1174/80 --
+-- Note: This solution is not 100% correct (17/25)
+
+if n != wall:
+	end
+endif
+a:
+if c == 0:
+	mem1 = calc mem1 + 1
+	pickup c
+	write mem1
+	drop
+endif
+step nw,w,sw,n,s,ne,e,se
+jump a
+
+

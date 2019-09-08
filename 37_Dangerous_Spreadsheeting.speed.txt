@@ -1,0 +1,30 @@
+-- 7 Billion Humans (2214M) --
+-- 37: Dangerous Spreadsheeting --
+-- size: 18/13 --
+-- speed: 32/32 --
+
+mem1 = set 0
+a:
+if c == datacube:
+	mem1 = calc mem1 + c
+endif
+if e == hole:
+	step se
+	if ne != hole:
+		step ne
+	else:
+		step e
+		step ne
+	endif
+else:
+	step e
+endif
+if e == wall:
+	pickup c
+	write mem1
+	drop
+	end
+endif
+jump a
+
+

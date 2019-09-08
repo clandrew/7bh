@@ -1,0 +1,178 @@
+-- 7 Billion Humans (2214M) --
+-- 65: Defrag Ordered --
+-- size: 144/25 --
+-- speed: 22/500 --
+
+step n
+step n
+if c == datacube and
+ ne == datacube:
+	comment 0
+	step ne
+	step ne
+	step n
+	step n
+	step n
+	pickup e
+	drop
+	pickup s
+	step e
+	step e
+	step e
+	drop
+	step sw
+	step w
+	step w
+	pickup sw
+	step w
+	drop
+	step e
+	step e
+	step e
+	pickup se
+	drop
+	step sw
+	pickup sw
+	step w
+	step w
+	step w
+	step w
+	drop
+	step s
+	step s
+	pickup se
+	step ne
+	step e
+	step e
+	step ne
+	drop
+	step s
+	step se
+	pickup se
+	step ne
+	step ne
+	drop
+	end
+endif
+if c == datacube and
+ nw == datacube:
+	comment 1
+	step n
+	step ne
+	step n
+	step ne
+	step ne
+	pickup e
+	step w
+	step w
+	drop
+	pickup s
+	step e
+	step e
+	step e
+	drop
+	step sw
+	step w
+	step w
+	pickup sw
+	step w
+	drop
+	step e
+	step e
+	step e
+	pickup se
+	drop
+	step s
+	pickup s
+	step w
+	step w
+	step w
+	step w
+	step w
+	drop
+	step s
+	pickup se
+	step ne
+	drop
+	step s
+	step se
+	pickup s
+	step ne
+	step ne
+	drop
+	end
+endif
+if w == datacube and
+ e == datacube:
+	comment 2
+	step n
+	step nw
+	step n
+	step nw
+	pickup w
+	step e
+	step e
+	step ne
+	drop
+	pickup se
+	step sw
+	step w
+	step w
+	step w
+	step w
+	drop
+	pickup s
+	step e
+	drop
+	step e
+	step e
+	step e
+	pickup se
+	drop
+	step w
+	step sw
+	pickup sw
+	step ne
+	step e
+	step e
+	step e
+	step e
+	drop
+	step sw
+	step sw
+	pickup s
+	step nw
+	step w
+	drop
+	step s
+	step se
+	pickup se
+	step ne
+	step ne
+	drop
+	end
+endif
+if c == datacube and
+ e == datacube:
+	comment 3
+	step s
+	step s
+	end
+endif
+
+
+DEFINE COMMENT 0
+eJzjZQCCRIaghiQGH4ZUBgsgNmFIA9LpDAENuQwdQNwDUsIQw9DTkAfkVzJ0MIyCUTAKhg0AAPsYC0c;
+
+DEFINE COMMENT 1
+eJwTYmBgaEhiCGFIZXBryGCwachmMGvIA+IiBgeGMoYAhnKGGCBOYyhlKGgoYKgCytUwZDO0MWQxdAFx
+X0MOwwSGeiAeBaNgFAxJAAAvUxIm;
+
+DEFINE COMMENT 2
+eJyTYGBgaIhj0GsoA2MzhlIGK4ZiBpeGXIYQhhyGMCAd0VDOEMFQwxDVUMcQ19DOkNfQxVDT0M3QBcSz
+gPw1DK0M6xrqGXYA9R9gKGQ40JDGsK0hlWEZkF7EMApGwSgY1AAAX6MeDA;
+
+DEFINE COMMENT 3
+eJzjY2BgaMhk0GDIZDBgSGcwa0hgCGKIZ0hiaARiEKgEilcxWDRUMXgB8RQgexFDBcM2hlEwCkbBsAAA
+S2sLow;
+

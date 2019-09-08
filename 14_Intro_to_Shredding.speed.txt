@@ -1,0 +1,45 @@
+-- 7 Billion Humans (2214M) --
+-- 14: Intro to Shredding --
+-- size: 5/4 --
+-- speed: 2/3 --
+
+comment 0
+comment 1
+comment 2
+if s == datacube:
+	step s
+	pickup c
+	step s
+	giveto s
+endif
+
+
+DEFINE COMMENT 0
+eJztkd8r3XEYx19XyigJReQCja01stxJxyHTodGZTpi0HT/iZJof6dDa3rmQkJ0460jt1OZHa1u70rlY
+7GJKuVDjL/L2/Ts89aqn59f7+Tyfj9gKGFeRKSZOKaOUMawyYqbTfsixNhWaAvsPCCmPCHkkyOe9Y2vu
+21EJaSpIq5KUqtgyq3ejqWFENQyonm49cW+jaSKsZ8RoYcqk1MwWzawH9U2OPWJKdcyqlkWz4t5VGlij
+0djU6pmt3jeE1O5c2PGwNTroVxe9ipgeXgS1z6mmz7zksQasMuS3vWIjyL0hqjhxjTFpEkxYb9J6CfOW
+Jb1jhjm6WSDKEosss64kh1rghHlyTJPTMD+CvTeZ0ab1t12/S5fSvlGGQWV804xznz07bXZIKkWST55w
+t8MXIiamrPf4as0DPnCE+G5+ssIvZk3MfjSo/8ZDjqnWb//KiclRzilPdea7njHIX15z7ntesMclWf6T
+1TX7uiEV7PmHcf4xwpW5t3uz3QLin3xD;
+
+DEFINE COMMENT 1
+eJztkt1Lk3EUxz9XQVcF3XVhLxSIUBmU9KJDQobaspAhNkRskITEnDR8Q+QoIkMkdBgNmyCxpKDX4U1E
+GhkRNkFYJHUjXTVKd7UgrLDv86M/owMf9jxn39/vfM85zyKKHQTYJXbTYHto8FLsJGJ7iXiPto8KO0C5
+HaTUDrHfDlNipZRQpucjVIrrdpR+McYxJuw4KTvBLBXM2lmS5lPOxzhVxN19ZYR1ptVO0ureT+O3Svz4
+qOWcatYQszpxnqgFuCbCTudTRS/qpA0Q4gLt7j1AvV3EZ0FOWTMtwkTMLtMhGi1EwFqotSsiTL1Ohewq
+/e7OiHzcEL00Wx9B4adPLnqppodqi8lbl/JRmqyTNqLqtYcYQ7p/SG9ezEg/o/rTqp/UrKbU+RRnLKHc
+pLwlaOKW7k+qzrS4Q5ul1GeKbm4zKO0gCQaY1AwnlPN83ZXnOdV+oGk8psaeyNczGsloFhnN5anOePFI
+85kTaTpI6+w95e8Tlz5uGUaEOd1znX0hDy9Vd4EBW9CMFhm2V/p/SbkleXxD0Gmz8pjVjrL/ZrRCufvN
+yXdOPr34KP2aevskb5/FuvTrtNsXusWI0xRUb4NL9k3kteu8Jp9Xj3l53BCb8lFQLwX5L5C2Teb5zrJ9
+ZVV3rdoa7+yDyPGWFbHMazFv73no/Gxpl780ly3t6Ycoag9FfUNFfQN/tPtt7cnTbTNqvxm3n9yUbky6
+UTHM/3DxF9Cm3tU;
+
+DEFINE COMMENT 2
+eJztkUsrBFAYhp9/QDbKdWFhZWFrZaWJUu6XJo1buYSJSbLgNTRyaUKSCJN7mZRLZEIRkaWlhYX8EO/4
+DZbeejrfOZ3v+97vnCGsDKrJJKAsysmmTDmUK49KFRA0g8pnWLnMkMsueSR9dk4hVxSRUrEp4UqlnJrD
+dDla6TBttBCkyTUaaFMtPdQQMYuqYYk6VtXMhkKmgzU6keM+tRMxi3Rza758/q0qE+DLfKqCD/NOgLd0
+K/USpo8o/cQZYJtBEoyQUMTxqPuMMuY4/OtrkqhmfXeeCRYYM13MEVLMTLm3PKeYUZQVTZsY64qzzjKr
+rNhTWge+u08ze2aXRna8brrOpmfbYtz7cR25z4n9JJ17bB8Jk9YDIRPUPfXcUatrc0GrzugyYS6cn7K/
+W2J6Jq4Xe3j1+7yy7zipJ871yKVS5sZ/8K9//YF+AGpmgs4;
+

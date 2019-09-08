@@ -1,0 +1,21 @@
+-- 7 Billion Humans (2214M) --
+-- 20: Reverse Line --
+-- size: 9/9 --
+-- speed: 11/11 --
+
+pickup s
+a:
+if se == hole:
+	step s
+	b:
+	if w == hole or
+	 w == datacube:
+		drop
+	endif
+	step w
+	jump b
+endif
+step e
+jump a
+
+

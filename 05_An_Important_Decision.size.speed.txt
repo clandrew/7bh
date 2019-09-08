@@ -1,0 +1,15 @@
+-- 7 Billion Humans (2214M) --
+-- 5: An Important Decision --
+-- size: 5/5 --
+-- speed: 2/3 --
+
+if w == datacube:
+	a:
+	step w
+	jump a
+endif
+b:
+step e
+jump b
+
+

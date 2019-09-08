@@ -1,0 +1,66 @@
+-- 7 Billion Humans (2214M) --
+-- 50: Cubical Communication --
+-- size: 55/12 --
+-- speed: 38/60 --
+
+if sw == 1:
+	takefrom s
+	tell everyone hi
+	giveto se
+	takefrom sw
+	giveto se
+	takefrom sw
+	giveto se
+	takefrom sw
+	giveto se
+	takefrom sw
+	giveto se
+	step w
+endif
+if sw == 2:
+	listenfor hi
+	takefrom s
+	giveto se
+	takefrom sw
+	giveto se
+	takefrom sw
+	giveto se
+	takefrom sw
+	giveto se
+	takefrom sw
+	giveto se
+	step w
+	tell everyone morning
+endif
+if sw == 3:
+	listenfor morning
+	takefrom s
+	tell everyone ready
+	giveto se
+	takefrom sw
+	giveto se
+	takefrom sw
+	giveto se
+	takefrom sw
+	giveto se
+	takefrom sw
+	giveto se
+	step w
+endif
+if sw == 4:
+	listenfor ready
+	takefrom s
+	giveto se
+	takefrom sw
+	giveto se
+	takefrom sw
+	giveto se
+	takefrom sw
+	giveto se
+	takefrom sw
+	giveto se
+	step w
+	tell everyone ok
+endif
+
+

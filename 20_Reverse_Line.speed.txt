@@ -1,0 +1,71 @@
+-- 7 Billion Humans (2214M) --
+-- 20: Reverse Line --
+-- size: 57/9 --
+-- speed: 5/11 --
+
+step s
+pickup c
+if w == hole:
+	step ne
+	step e
+	step e
+	step e
+	step e
+	step e
+	step se
+	drop
+else:
+	if e == hole:
+		step sw
+		step w
+		step w
+		step w
+		step w
+		step w
+		step nw
+		drop
+	endif
+endif
+if w == nothing:
+	step ne
+	step e
+	step e
+	step e
+	step se
+	drop
+	end
+else:
+	if e == nothing:
+		step sw
+		step w
+		step w
+		step w
+		step nw
+		drop
+	endif
+endif
+if w == nothing:
+	step ne
+	step e
+	step se
+	drop
+	end
+else:
+	if e == nothing:
+		step sw
+		step w
+		step nw
+		drop
+		end
+	endif
+endif
+if w == nothing:
+	step ne
+	step s
+	drop
+else:
+	step w
+	drop
+endif
+
+

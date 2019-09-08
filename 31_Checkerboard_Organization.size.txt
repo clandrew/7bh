@@ -1,0 +1,16 @@
+-- 7 Billion Humans (2214M) --
+-- 31: Checkerboard Organization --
+-- size: 7/7 --
+-- speed: 126/100 --
+
+mem1 = nearest printer
+a:
+if myitem == nothing:
+	takefrom mem1
+	step w,n,e
+endif
+step nw,sw,ne,se
+drop
+jump a
+
+

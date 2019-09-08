@@ -1,0 +1,24 @@
+-- 7 Billion Humans (2214M) --
+-- 41: Image Decrypter --
+-- size: 8/8 --
+-- speed: 68/15 --
+
+pickup w
+mem2 = set myitem
+a:
+step w
+if mem2 <= 0:
+	drop
+	comment 0
+	step ne
+endif
+mem2 = calc mem2 - 1
+jump a
+
+
+DEFINE COMMENT 0
+eJztjs0KAQEURs/jWMhK8wQW1Cz8NfmZJg0LhqRJFmRcQqKIrCQLyQNYSB7DE7njCTzAnDrdu/jujwFI
+jrR6IyRDUkwS5IlRJiY2cWoY4mLikpUKtlg4UsTVmQYFmlKiI1X61DnS5EGLJ23edNQQD088ne6pvvY+
+vnqQPhcZcGWkjjn/sl1SYZFAr04IZMqJGXfmvGTO55cZ6Xcr8rLBYofDXnduGahD1ppcsCQiIuIvvpIh
+NWA;
+

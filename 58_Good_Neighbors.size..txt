@@ -1,0 +1,25 @@
+-- 7 Billion Humans (2214M) --
+-- 58: Good Neighbors --
+-- size: 10/10 --
+-- speed: 726/175 --
+
+a:
+step nw,w,sw,n,s,ne,e,se
+mem4 = set 0
+if myitem == datacube and
+ c == nothing or
+ myitem == nothing and
+ c == datacube:
+	mem1 = foreachdir nw,w,sw,n,s,ne,e,se:
+		if mem1 == datacube:
+			mem4 = calc mem4 + 1
+		endif
+	endfor
+endif
+drop
+if mem4 > 3:
+	pickup c
+endif
+jump a
+
+

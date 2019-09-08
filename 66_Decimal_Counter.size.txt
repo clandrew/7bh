@@ -1,0 +1,66 @@
+-- 7 Billion Humans (2214M) --
+-- 66: Decimal Counter --
+-- size: 23/23 --
+-- speed: 206/120 --
+
+step s
+step s
+a:
+if c == switch:
+	comment 1
+	pickup n
+	b:
+	drop
+	if c > 0:
+		tell everyone hi
+	endif
+	if c == 0:
+		tell w coffeetime
+	endif
+	listenfor coffeetime
+	if c < 9:
+		comment 2
+		mem1 = calc c + 1
+	else:
+		comment 3
+		mem1 = set 0
+	endif
+	pickup c
+	write mem1
+	jump b
+else:
+	comment 0
+	listenfor hi
+	step n
+	step s
+	tell nw coffeetime
+endif
+jump a
+
+
+DEFINE COMMENT 0
+eJztj8tKQmEUhb9niWgQh4gGDUq60A0PDkQiNSJLDQ4hUY3CbhsDFT04EJMQOpElUjR00LSi92p17B2a
+uOGD/e/LWvvPATbPKhFiwpS3bI5A3DHsTdsijq3hsMEUUWYtygIruJpP2Dq75lLQ9pmoqd9RLWCZrkXo
+hhpJjtniQpRJ0rA0LTJij6btiywNclwpL/zOq7dkGflk5XvAJIeMcyJOmZBLXAScS/talOiEHh5Hdsl2
+mBeZkZtjpp0bxqiIuv5YJ6ELU3oXrYxPlbbVdO+tNNo0Q++K3Kp4qnvmk9dl+bB+T1aYnEv0xAue2Ax7
+A+WD4b69a+5DfJK3b3zxal+8/Wmk7IGYPeLaE3F71l960uir3meHUYziH+IHf4xf7g;
+
+DEFINE COMMENT 1
+eJztj9tKAlEUhr/nKy8iyjJqMgkPVMM4hZSILCQ6QEgI2SCiHUS6SJmItLuON0EP1T/7LQLX5mMf1r/+
+tXYahUfaMqRshTlbdKzZMrtsUGeTY7Zoip55PJAhZonYFhiSomXz1BILivhWIqAsQtWGci2zji9K5CkQ
+WIET26Fte3Rsnxs7FEfyrRIlFlYnL7ru3MCzU1Y5V/0FFU2QrInL3ZGjr/dItMnaFdvai7r7qg7occAt
+FemqNlDPgbL3yvaJ7JpLN+9IriP5jqV9knZCw6bSvtJiKu0LXXvWbLHcxnRE0/V+JxQ1PjmzL4b2zaN7
+fyNnH5r5R//+JcssZvFP4g+342P7;
+
+DEFINE COMMENT 2
+eJztj88KAVEYxX9P4xVsxILY2WBM04SwkJiISGn6FsxeCUnTLCwmT+nMfY45t3P/nHu+891bR6gyshqh
+1fFp0actdvCszcIa3KVnYq79jy4/6/IpyqxJxa0D5gxYiDE9Uqd5TBgSaniMlDXGtymRnAkz1c+UVSCW
+FrO0s/wnefYEttV+I2ekOeJgKy7iy9a8dU51/7WdeCRXbW4xmeuZEIm5yzXlJOp7U/8HAU+9opCv+utV
+KSVKlHD4AwtfPRY;
+
+DEFINE COMMENT 3
+eJztjs9KQlEchL+XkiIpkkJduDDNKDEREQwVsYhIiBjLzIWBwkWqhddFi+hBWrTwAVr2JM29PUbO4YPz
+Z87Mbx8rTVUp8to1O+TYJqckeRJ0zJANXtlkoS2WpMye9xkCskyj7yrS4JAaJaocU1GZilddp1yaeew5
+QRRNgTsdMDKBCjxzxIKyidSkpTPGtN3X/rtTi64unH9tovMtV57oI/YPnH9PTw/0eKTLk4k8UzqauStw
+/gvvsTf0W8iNp59oyZv5VMiXm1Ya8UPfnPPNWmv9M/0CrzJDsw;
+

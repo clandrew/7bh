@@ -1,0 +1,23 @@
+-- 7 Billion Humans (2214M) --
+-- 61: Lazy Pathways --
+-- size: 11/11 --
+-- speed: 615/250 --
+
+a:
+mem4 = set 99
+mem1 = foreachdir nw,w,sw,n,s,ne,e,se:
+	if mem1 < mem4:
+		mem4 = set mem1
+	endif
+endfor
+mem4 = calc mem4 + 1
+if mem4 != 99 and
+ mem4 < c:
+	pickup c
+	write mem4
+	drop
+endif
+step nw,w,sw,n,s,ne,e,se
+jump a
+
+

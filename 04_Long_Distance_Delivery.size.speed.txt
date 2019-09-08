@@ -1,0 +1,12 @@
+-- 7 Billion Humans (2214M) --
+-- 4: Long Distance Delivery --
+-- size: 4/4 --
+-- speed: 6/7 --
+
+step e
+pickup c
+a:
+step e
+jump a
+
+

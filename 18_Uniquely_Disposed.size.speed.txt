@@ -1,0 +1,16 @@
+-- 7 Billion Humans (2214M) --
+-- 18: Uniquely Disposed --
+-- size: 7/7 --
+-- speed: 12/12 --
+
+step sw
+pickup n
+a:
+if s == shredder:
+	giveto s
+else:
+	step se
+	jump a
+endif
+
+

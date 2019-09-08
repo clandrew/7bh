@@ -1,0 +1,11 @@
+-- 7 Billion Humans (2214M) --
+-- 2: Welcome, New Employees --
+-- size: 3/3 --
+-- speed: 1/2 --
+
+
+step s
+pickup c
+drop
+
+

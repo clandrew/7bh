@@ -1,0 +1,55 @@
+-- 7 Billion Humans (2214M) --
+-- 10: Emergency Escapades --
+-- size: 33/9 --
+-- speed: 24/25 --
+
+step w
+step w
+step w
+step w
+a:
+if w == 3:
+	comment 0
+	step sw
+	step s
+	step sw
+	step w
+	step w
+	step w
+	step nw
+	step n
+	step n
+	step nw
+	step n
+	step n
+	step n
+else:
+	if c == 1:
+		if w == hole and
+		 ne == hole:
+			step sw
+		else:
+			if nw == hole and
+			 sw == hole:
+				step w
+			else:
+				if w == hole and
+				 sw == hole:
+					step nw
+				else:
+					step n
+				endif
+			endif
+		endif
+	else:
+		step w
+	endif
+	jump a
+endif
+
+
+DEFINE COMMENT 0
+eJztjDsKwgAQBedAIh7AwkMoCCoGUUghGKIogp+HhWgKsRD8BCRiSFKJRQ7o6hksMzDFvt19ZUAzqhpT
+kmv2qdCiRoO26nhqEtDhQpebBiR289KInCm55ry1JDYjrWy/5iJxNHd88fC1wbfJY4+sKf7lN0uubK11
+pTNDhfQV0dMDR08cElxS+8uYKGNhBko5KOakuxlyoKCg4C98ALgBOWo;
+

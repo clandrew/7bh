@@ -1,0 +1,92 @@
+-- 7 Billion Humans (2214M) --
+-- 66: Decimal Counter --
+-- size: 79/23 --
+-- speed: 118/120 --
+
+step s
+if s != button:
+	step s
+endif
+pickup n
+drop
+if c == 1:
+	mem1 = set 1
+	a:
+	step se
+	step nw
+	if mem1 < 9:
+		mem1 = calc mem1 + 1
+		pickup c
+		write mem1
+		drop
+		jump a
+	else:
+		step w
+		pickup c
+		write 9
+		drop
+		step e
+		pickup c
+		write 0
+		drop
+		mem1 = set 0
+		b:
+		step se
+		step nw
+		if mem1 < 9:
+			mem1 = calc mem1 + 1
+			pickup c
+			write mem1
+			drop
+			jump b
+		else:
+			pickup c
+			write 0
+			drop
+			step w
+			pickup c
+			write 0
+			drop
+			step w
+			pickup c
+			write 0
+			drop
+			step w
+			pickup c
+			write 0
+			drop
+			step w
+			pickup c
+			write 0
+			drop
+			step w
+			pickup c
+			write 0
+			drop
+			step w
+			pickup c
+			write 1
+			drop
+			step e
+			step e
+			step e
+			step e
+			step e
+			step e
+			step se
+			step nw
+			pickup c
+			write 1
+			drop
+			step se
+			step nw
+			pickup c
+			write 2
+			drop
+			step se
+			step nw
+		endif
+	endif
+endif
+
+

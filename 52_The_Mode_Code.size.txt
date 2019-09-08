@@ -1,0 +1,40 @@
+-- 7 Billion Humans (2214M) --
+-- 52: The Mode Code --
+-- size: 23/24 --
+-- speed: 309/158 --
+
+step s
+pickup c
+if w != nothing:
+	listenfor hi
+	mem1 = calc w + 1
+endif
+write mem1
+drop
+tell e hi
+mem2 = set c
+a:
+b:
+if w != wall and
+ w != hole:
+	step w
+	if c == mem1:
+		mem4 = calc mem4 + 1
+	endif
+	jump a
+endif
+step ne
+c:
+if e != wall and
+ e != hole:
+	step e
+	jump c
+endif
+if n != wall:
+	jump b
+endif
+pickup mem2
+write mem4
+drop
+
+

@@ -1,0 +1,38 @@
+-- 7 Billion Humans (2214M) --
+-- 16: Little Exterminator 2 --
+-- size: 28/8 --
+-- speed: 8/9 --
+
+
+step s
+step s
+step s
+step s
+if c == 3:
+	pickup c
+	step e
+	step se
+	step e
+	giveto e
+else:
+	if s == 2:
+		pickup s
+		step e
+		step e
+		step se
+		step e
+		giveto se
+	else:
+		step s
+		pickup s
+		step e
+		step e
+		step e
+		step e
+		step se
+		step se
+		giveto se
+	endif
+endif
+
+

@@ -1,0 +1,11 @@
+-- 7 Billion Humans (2214M) --
+-- 14: Intro to Shredding --
+-- size: 4/4 --
+-- speed: 4/3 --
+
+pickup s
+step s
+step s
+giveto s
+
+

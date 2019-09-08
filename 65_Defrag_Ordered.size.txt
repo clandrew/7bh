@@ -1,0 +1,54 @@
+-- 7 Billion Humans (2214M) --
+-- 65: Defrag Ordered --
+-- size: 23/25 --
+-- speed: 922/500 --
+-- Not proud of this one.--
+
+step w
+if w != hole or
+ s != hole:
+	end
+endif
+mem1 = set nothing
+comment 0
+a:
+if n != hole:
+	step n
+	jump a
+endif
+b:
+c:
+if e != hole:
+	step e
+else:
+	step sw
+	d:
+	if w != hole:
+		step w
+		jump d
+	endif
+endif
+if c == nothing and
+ w == datacube and
+ myitem == nothing:
+	mem1 = set w
+endif
+if c == datacube and
+ mem1 != nothing and
+ myitem == nothing:
+	pickup c
+	step mem1
+	jump b
+endif
+if myitem == datacube and
+ c == nothing:
+	drop
+endif
+jump c
+
+
+DEFINE COMMENT 0
+eJyTZwACMwa3BksGKwYbBosGZyB2ZbBq8GTwYPBiCADiDgYfhjkMvgzzGkKAOJxhBkMEwxSQNqCOnAYn
+hhyGQIY4ELchmMECKGfQEMVgxBADNCeJoYwhFag2g2ENQzbDBoZ8hg0NJQxrGqoYFjVUM8xiGAWjYBQM
+OAAA0w8cQA;
+

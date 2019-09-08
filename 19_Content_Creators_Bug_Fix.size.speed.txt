@@ -1,0 +1,12 @@
+-- 7 Billion Humans (2214M) --
+-- 19: Content Creators Bug Fix --
+-- size: 4/4 --
+-- speed: 26/27 --
+
+a:
+takefrom s
+giveto se
+step w
+jump a
+
+

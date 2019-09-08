@@ -1,0 +1,17 @@
+-- 7 Billion Humans (2214M) --
+-- 46: Compulsory Office Romance --
+-- size: 7/7 --
+-- speed: 15/15 --
+
+a:
+if e == worker:
+	tell e hi
+	listenfor hi
+endif
+if w == worker:
+	listenfor hi
+	tell w hi
+endif
+jump a
+
+

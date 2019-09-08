@@ -1,0 +1,16 @@
+-- 7 Billion Humans (2214M) --
+-- 49: Double Sided Destruction --
+-- size: 6/7 --
+-- speed: 15/17 --
+
+mem1 = nearest shredder
+pickup s
+a:
+step n
+if w == worker and
+ e == worker:
+	jump a
+endif
+giveto mem1
+
+

@@ -1,0 +1,23 @@
+-- 7 Billion Humans (2214M) --
+-- 22: Number Royale --
+-- size: 6/6 --
+-- speed: 9/11 --
+
+pickup s
+a:
+if myitem < e or
+ myitem < w:
+	comment 0
+	b:
+	step s
+	jump b
+endif
+step w
+jump a
+
+
+DEFINE COMMENT 0
+eJztjMsJwlAURE8xthE/UYJojOBSooh7FSWCSCCDa8nSWqzCGizFySvC1TuXud/h9jAJpRJ29JEGPDWk
+ZcSrO7nfa8yKjKljwpxUC08FM5bknYcNW6sNfUka6oG1zrxV8dGVb9gd/eFEpptVk6uxW9ypnSvrwoNI
+JPJXfhWFHaI;
+

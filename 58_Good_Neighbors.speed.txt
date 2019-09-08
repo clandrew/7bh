@@ -1,0 +1,67 @@
+-- 7 Billion Humans (2214M) --
+-- 58: Good Neighbors --
+-- size: 54/10 --
+-- speed: 11/175 --
+
+mem1 = nearest datacube
+pickup mem1
+mem1 = nearest wall
+step mem1
+if w == wall and
+ myitem == 8:
+	step s
+	step s
+endif
+drop
+if e == wall:
+	step w
+	step w
+	step w
+	step w
+	step w
+	pickup w
+	step e
+	step e
+	step e
+	drop
+	step w
+	pickup w
+	step nw
+	step n
+	drop
+endif
+if s == wall:
+	step n
+	step n
+	step n
+	step n
+	step n
+	pickup n
+	step se
+	step se
+	step s
+	step s
+	drop
+endif
+if w == wall:
+	step e
+	step e
+	step e
+	step e
+	pickup e
+	step w
+	step w
+	drop
+endif
+if n == wall:
+	step s
+	step s
+	step s
+	step s
+	pickup s
+	step ne
+	step ne
+	drop
+endif
+
+

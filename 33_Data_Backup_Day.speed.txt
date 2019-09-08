@@ -1,0 +1,40 @@
+-- 7 Billion Humans (2214M) --
+-- 33: Data Backup Day --
+-- size: 12/8 --
+-- speed: 3/3 --
+
+mem1 = set w
+if mem1 > e:
+	comment 0
+	mem1 = set e
+	step w
+	pickup c
+	write mem1
+	drop
+else:
+	comment 1
+	step e
+	pickup c
+	write mem1
+	drop
+endif
+
+
+DEFINE COMMENT 0
+eJztkU0rhGEUhq9foShLkoUFycdqTMrEFA0xGNI0aZKEJCGdkCQmyYrMWMjaAhEjMb6l7MQgUvIv3M+7
+9w+cuuo873PO/Zxzv+OA5dAt+sjFLI9V0UI+TRSIIsIigqsrJW5ljFJJ0p2pppQK4aKebgLSqaXXfIzh
+Y44aFvGToI6EBVhQzSwNjIu41RO1BnosSMwamaSZpDWTsRD3evVBd/fm58yq2KWcHe/9NgpFtYVpEgkx
+SLvm7pBeJ3G6lPdIK8qKWPN6+ilR1TBDbHnnKDEmhMunCDEvXD7DqC1pN5evUyzibGgHd94mbJvaL6WZ
+k9ovRb/tMu3d7UnrQBzr5bS8Smu2I4L6FrR9WsWIHTJpp5rL1Z8TsRs67I6Q8NstPrsSl8oz2vxCflwz
+YI/Sf5Jnz8L1ZaWXlb+vDPDBsjjxfH+Rq1k5/ya+VPMtjR/N+6N/9q0dPqX1rp7/+I8/4hfQNIF+;
+
+DEFINE COMMENT 1
+eJztkU9LlFEUxn+fQFy0atFCTKX8SyGmLTIEBSMlhFwM8ipTDWrDMJakDPIoJhMMBrZr5SKERgNBFBfh
+vwpzwFEJWwTFLFok5Xfoed+PER34cd9z7z3nPs95c4Au00w1V1RDla5SQR0VaqCGJq6riTuqZ5R6Fmng
+DdfI6wYrtHltY4mbLBDGLYboj+jnPvfopUvddNHJXW57r52Y2knTwZQ6maObrHqYVx/zYbmSXOQxFxim
+jIR5RDkPqDKtzmMkmVTaGsZY8rqlFAWNcKxBE1AkoMAgW1GvgITvJHjKwyh/RiMT1JKhkin7mzYz9jpL
+i+boNWk9R2bTyt4ry55yfLSyHV6yGvXIWP8L6wjjFR16bSfh/gJxq4pH+28pU55LWqbZRHPRmmew4tq8
+NS2T4h1PWEdsmPB8k2F9sut96/3s+e0z4DzGntkl0DZJk9GO739glgNTsPowiu53SkpfiZtAp64t+vvQ
+bxwxriPXHdvxCTP6YmffyPE9IhvVlzy1EqsqWU0YPzyLkv/cLwb47bM/1nNuXed+54xJfnqC/+Ofi7/9
+Upae;
+

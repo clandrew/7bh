@@ -1,0 +1,22 @@
+-- 7 Billion Humans (2214M) --
+-- 43: Multiplication Table --
+-- size: 11/11 --
+-- speed: 67/53 --
+
+a:
+if n != datacube or
+ n == 0:
+	step n
+	jump a
+endif
+mem1 = set n
+b:
+step s
+mem2 = calc mem2 + 1
+mem3 = calc mem1 x mem2
+pickup c
+write mem3
+drop
+jump b
+
+

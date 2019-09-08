@@ -1,0 +1,203 @@
+-- 7 Billion Humans (2214M) --
+-- 32: Creative Writhing --
+-- size: 193/6 --
+-- speed: 31/39 --
+
+if nw == wall:
+	step s
+	pickup c
+	write 99
+	drop
+	step s
+	pickup c
+	write 99
+	drop
+	step e
+	pickup c
+	write 99
+	drop
+	step s
+	pickup c
+	write 99
+	drop
+	step s
+	pickup c
+	write 99
+	drop
+	step w
+	pickup c
+	write 99
+	drop
+	step s
+	pickup c
+	write 99
+	drop
+	step s
+	pickup c
+	write 99
+	drop
+	step e
+	pickup c
+	write 99
+	drop
+	step s
+	pickup c
+	write 99
+	drop
+	step s
+	pickup c
+	write 99
+	drop
+	step w
+	pickup c
+	write 99
+	drop
+	step s
+	pickup c
+	write 99
+	drop
+else:
+	step s
+	pickup c
+	write 99
+	drop
+	if w == datacube:
+		step w
+		pickup c
+		write 99
+		drop
+		step s
+		pickup c
+		write 99
+		drop
+		step s
+		pickup c
+		write 99
+		drop
+		step e
+		pickup c
+		write 99
+		drop
+		step s
+		pickup c
+		write 99
+		drop
+		step s
+		pickup c
+		write 99
+		drop
+		step s
+		pickup c
+		write 99
+		drop
+		step w
+		pickup c
+		write 99
+		drop
+		step s
+		pickup c
+		write 99
+		drop
+		step s
+		pickup c
+		write 99
+		drop
+		step e
+		pickup c
+		write 99
+		drop
+		step s
+		pickup c
+		write 99
+		drop
+	else:
+		step s
+		pickup c
+		write 99
+		drop
+		if w == datacube:
+			step w
+			pickup c
+			write 99
+			drop
+			step s
+			pickup c
+			write 99
+			drop
+			step s
+			pickup c
+			write 99
+			drop
+			step e
+			pickup c
+			write 99
+			drop
+			step s
+			pickup c
+			write 99
+			drop
+			step s
+			pickup c
+			write 99
+			drop
+			step w
+			pickup c
+			write 99
+			drop
+			step s
+			pickup c
+			write 99
+			drop
+			step s
+			pickup c
+			write 99
+			drop
+			step s
+			pickup c
+			write 99
+			drop
+		endif
+		step e
+		pickup c
+		write 99
+		drop
+		step s
+		pickup c
+		write 99
+		drop
+		step s
+		pickup c
+		write 99
+		drop
+		step w
+		pickup c
+		write 99
+		drop
+		step s
+		pickup c
+		write 99
+		drop
+		step s
+		pickup c
+		write 99
+		drop
+		step s
+		pickup c
+		write 99
+		drop
+		step e
+		pickup c
+		write 99
+		drop
+		step s
+		pickup c
+		write 99
+		drop
+		step s
+		pickup c
+		write 99
+		drop
+	endif
+endif
+
+

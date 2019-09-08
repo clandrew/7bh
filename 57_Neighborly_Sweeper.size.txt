@@ -1,0 +1,35 @@
+-- 7 Billion Humans (2214M) --
+-- 57: Neighborly Sweeper --
+-- size: 12/16 --
+-- speed: 194/100 --
+-- This solution is not 100% correct (23/25)
+
+a:
+if c == datacube and
+ c == 0 or
+ c > 8:
+	mem4 = set 0
+	if nw == worker or
+	 n == worker or
+	 ne == worker or
+	 e == worker or
+	 se == worker or
+	 s == worker or
+	 sw == worker or
+	 w == worker:
+		jump b
+	endif
+	mem1 = foreachdir nw,w,sw,n,s,ne,e,se:
+		if mem1 == datacube:
+			mem4 = calc mem4 + 1
+		endif
+	endfor
+	pickup c
+	write mem4
+	drop
+endif
+b:
+step nw,w,sw,n,s,ne,e,se
+jump a
+
+

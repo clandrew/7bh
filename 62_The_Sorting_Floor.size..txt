@@ -1,0 +1,87 @@
+-- 7 Billion Humans (2214M) --
+-- 62: The Sorting Floor --
+-- size: 46/48 --
+-- speed: 316/174 --
+
+if n == nothing and
+ w == hole:
+	step n
+	step ne
+	a:
+	if w == hole:
+		step e
+	endif
+	if e == hole:
+		step w
+	endif
+	if n == hole:
+		step s
+	endif
+	if s == nothing:
+		step n
+	endif
+	comment 2
+	step ne,e,se
+	step w
+	if w == datacube and
+	 c == datacube and
+	 w > c:
+		mem1 = set w
+		mem2 = set c
+	endif
+	if c == datacube and
+	 e == datacube and
+	 c > e:
+		mem1 = set c
+		mem2 = set e
+	endif
+	if e == datacube and
+	 sw == datacube and
+	 e > sw:
+		mem1 = set e
+		mem2 = set sw
+	endif
+	comment 0
+	if mem1 != nothing and
+	 mem2 != nothing:
+		pickup mem1
+		mem4 = nearest worker
+		step mem4
+		drop
+		pickup mem2
+		if w == nothing:
+			step w
+			drop
+			pickup mem1
+			step mem2
+			step e
+		else:
+			step ne
+			step e
+			drop
+			pickup mem1
+			step mem2
+			step sw
+			step w
+		endif
+		drop
+		mem1 = set nothing
+		mem1 = set nothing
+	endif
+	jump a
+endif
+
+
+DEFINE COMMENT 0
+eJztj91KglEQRdeTiRcf/tGFgWh+hEI3hYEKiYVIbMSQIpRESkREschI83V6nLbnNXLDgsPMPntmIkBV
+KlSJFZNTgaROSXBCQlm/M0QmT879Il2d0VeZoUpM7Z0rz5KsSbNQ5HpEj4MuaZmhruyr2XfNjAZPNHnW
+De+6Zas702FpenS4D//kHfqeOTJjMrxxbiZ6ZR7aLzT16JQBbT14l4EzR6E/Yco4eFYUTEVrp27YaMdv
+qK9J8UFKn75m73v2XPBDXVtnftPSF22OOuqf6Q/J9U+1;
+
+DEFINE COMMENT 2
+eJztj8Erw3EYxj9/ieSw0w4OOzi70ISZjKiJqDWaGcYiPWlNxGor24FFDiMOM1GzA/40z377Jxz21qdv
+PT3f533eJUATJDRJjimq9GaaKLNEFbMe44w5SsT9xklpnqQWWNYiSVbIKuk/q9z1vmmDnDZRkLHGWKBl
+kElrzxywrQJ5U+SQknZMxrk93xYj7DLkFsPKE6HAjH3rHHMU5F1S5px9k+GCNBVTI0vdWt2eG++pumfZ
+2Vf9DioS4pqQKozaM84tCXPqtv2ODesNwronzCMRNX3TEynzomc6vPKrN9Pmm3e6QWbbO75M13u6vqXj
+Ph++q0WeFiemZs+DPmnqhyaDGcw/nz/nSVx3;
+

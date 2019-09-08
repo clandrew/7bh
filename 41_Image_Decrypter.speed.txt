@@ -1,0 +1,136 @@
+-- 7 Billion Humans (2214M) --
+-- 41: Image Decrypter --
+-- size: 119/8 --
+-- speed: 8/8 --
+
+pickup w
+if myitem == 1:
+	step w
+	step w
+	drop
+	mem4 = nearest hole
+	step mem4
+endif
+if myitem == 3:
+	step w
+	step w
+	step w
+	step w
+	drop
+	mem4 = nearest hole
+	step mem4
+endif
+if myitem == 4:
+	step w
+	step w
+	step w
+	step w
+	step w
+	drop
+	mem4 = nearest hole
+	step mem4
+endif
+if myitem == 5:
+	step w
+	step w
+	step w
+	step w
+	step w
+	step w
+	drop
+	mem4 = nearest hole
+	step mem4
+endif
+if myitem == 6:
+	step w
+	step w
+	step w
+	step w
+	step w
+	step w
+	step w
+	drop
+	mem4 = nearest hole
+	step mem4
+endif
+if myitem == 7:
+	step w
+	step w
+	step w
+	step w
+	step w
+	step w
+	step w
+	step w
+	drop
+	mem4 = nearest hole
+	step mem4
+endif
+if myitem == 9:
+	step w
+	step w
+	step w
+	step w
+	step w
+	step w
+	step w
+	step w
+	step w
+	step w
+	drop
+	mem4 = nearest hole
+	step mem4
+endif
+if myitem == 10:
+	step w
+	step w
+	step w
+	step w
+	step w
+	step w
+	step w
+	step w
+	step w
+	step w
+	step w
+	drop
+	mem4 = nearest hole
+	step mem4
+endif
+if myitem == 11:
+	step w
+	step w
+	step w
+	step w
+	step w
+	step w
+	step w
+	step w
+	step w
+	step w
+	step w
+	step w
+	drop
+	mem4 = nearest hole
+	step mem4
+endif
+if myitem == 12:
+	step w
+	step w
+	step w
+	step w
+	step w
+	step w
+	step w
+	step w
+	step w
+	step w
+	step w
+	step w
+	step w
+	drop
+	mem4 = nearest hole
+	step mem4
+endif
+
+

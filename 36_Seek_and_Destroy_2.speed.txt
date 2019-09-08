@@ -1,0 +1,34 @@
+-- 7 Billion Humans (2214M) --
+-- 36: Seek and Destroy 2 --
+-- size: 13/10--
+-- speed: 138/145 --
+
+mem2 = nearest shredder
+a:
+b:
+if c != datacube:
+	step n
+	jump a
+endif
+mem1 = set c
+c:
+step n
+if n == wall:
+	comment 0
+	pickup mem1
+	giveto mem2
+	jump b
+endif
+if c < mem1:
+	mem1 = set c
+endif
+jump c
+
+
+DEFINE COMMENT 0
+eJztj8tKAgEUhr93cBNmYps2Cta+XEiXTQSjYtFCQiTCKEWMcpThIDJYTpJT2kXpWftn3iLwhw8O5/zn
+5gCW45gcRdth39Jii4I4I02VDDWydC2PsYcvpuwSKrewbRZsElqCMQnVo1kHbFBgFcUUueBQHHEpapxw
+L37jmkPTHDzRsBJVK1PinFNuuYrnlHkSQ2XD2H9HmxYdHsQjbeup36VBX709KnSpWEf3triRdyDG2hbI
+HZrHRzwzUBzozldcZlzbO3WbU+eLJj+49o1vnwTKT+1Neyfyv+jfSD4pnknajCRzMrbU3iWePh2x1lr/
+WH+1SEox;
+

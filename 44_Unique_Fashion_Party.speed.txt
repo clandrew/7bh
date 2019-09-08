@@ -1,0 +1,63 @@
+-- 7 Billion Humans (2214M) --
+-- 44: Unique Fashion Party --
+-- size: 44/11 --
+-- speed: 57/75 --
+
+pickup s
+if se == myitem or
+ sw == myitem:
+	mem1 = calc 0 / 0
+endif
+a:
+if se != hole:
+	step s,e,se
+	jump a
+endif
+if myitem == 0:
+	step e
+endif
+if myitem == 1:
+	step e
+	step e
+endif
+if myitem == 2:
+	step e
+	step e
+	step e
+endif
+if myitem == 3:
+	step e
+	step e
+	step e
+	step e
+endif
+if myitem == 4:
+	step e
+	step e
+	step e
+	step e
+	step e
+endif
+if myitem == 5:
+	step e
+	step e
+	step e
+	step e
+	step e
+	step e
+endif
+if myitem == 6:
+	step e
+	step e
+	step e
+	step e
+	step e
+	step e
+	step e
+endif
+if n == worker:
+	step s
+endif
+step n
+
+

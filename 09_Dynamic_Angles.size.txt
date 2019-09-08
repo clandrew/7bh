@@ -1,0 +1,14 @@
+-- 7 Billion Humans (2214M) --
+-- 9: Dynamic Angles --
+-- size: 5/5 --
+-- speed: 6/13 --
+
+a:
+step s
+pickup c
+if nw == datacube:
+	drop
+endif
+jump a
+
+

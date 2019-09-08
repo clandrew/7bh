@@ -1,0 +1,17 @@
+-- 7 Billion Humans (2214M) --
+-- 25: My First Shredding Memory --
+-- size: 8/5 --
+-- speed: 132/132 --
+
+mem2 = nearest shredder
+a:
+mem1 = nearest datacube
+pickup mem1
+if myitem == datacube:
+	giveto mem2
+else:
+	end
+endif
+jump a
+
+

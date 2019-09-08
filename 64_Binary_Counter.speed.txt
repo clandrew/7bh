@@ -1,0 +1,53 @@
+-- 7 Billion Humans (2214M) --
+-- 64: Binary Counter --
+-- size: 28/17 --
+-- speed: 40/54 --
+
+step s
+step s
+if c == switch:
+	pickup n
+	if e != switch:
+		drop
+		a:
+		tell everyone hi
+		listenfor ready
+		if myitem == datacube:
+			drop
+		else:
+			pickup c
+		endif
+		jump a
+	else:
+		b:
+		if e == datacube:
+			c:
+			if e == datacube:
+				jump c
+			endif
+			if myitem == datacube:
+				drop
+			else:
+				pickup c
+			endif
+		endif
+		jump b
+	endif
+else:
+	comment 0
+	d:
+	tell everyone ready
+	listenfor hi
+	step n
+	step s
+	jump d
+endif
+
+
+DEFINE COMMENT 0
+eJztj8tKQmEUhb9niWgQh4gGDUq60A0PDkQiNSJLDQ4hUY3CbhsDFT04EJMQOpElUjR00LSi92p17B2a
+uOGD/e/LWvvPATbPKhFiwpS3bI5A3DHsTdsijq3hsMEUUWYtygIruJpP2Dq75lLQ9pmoqd9RLWCZrkXo
+hhpJjtniQpRJ0rA0LTJij6btiywNclwpL/zOq7dkGflk5XvAJIeMcyJOmZBLXAScS/talOiEHh5Hdsl2
+mBeZkZtjpp0bxqiIuv5YJ6ELU3oXrYxPlbbVdO+tNNo0Q++K3Kp4qnvmk9dl+bB+T1aYnEv0xAue2Ax7
+A+WD4b69a+5DfJK3b3zxal+8/Wmk7IGYPeLaE3F71l960uir3meHUYziH+IHf4xf7g;
+

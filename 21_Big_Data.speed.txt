@@ -1,0 +1,21 @@
+-- 7 Billion Humans (2214M) --
+-- 21: Big Data --
+-- size: 8/8 --
+-- speed: 32/32 --
+
+step s
+a:
+if s == printer:
+	b:
+	takefrom s
+	if myitem < 50:
+		giveto sw
+		step e
+		jump b
+	endif
+else:
+	takefrom s
+endif
+jump a
+
+

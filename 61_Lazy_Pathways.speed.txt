@@ -1,0 +1,251 @@
+-- 7 Billion Humans (2214M) --
+-- 61: Lazy Pathways --
+-- size: 201/11 --
+-- speed: 58/250 --
+
+if w == 99 and
+ n == wall:
+	step w
+	pickup c
+	write 3
+	drop
+	step w
+	pickup c
+	write 2
+	drop
+	a:
+	if s != wall:
+		step w
+		jump a
+	endif
+	pickup c
+	write 3
+	drop
+	step w
+	pickup c
+	write 4
+	drop
+	step w
+	pickup c
+	write 5
+	drop
+	step w
+	pickup c
+	write 6
+	drop
+	step s
+	pickup c
+	write 6
+	drop
+	step s
+	pickup c
+	write 7
+	drop
+	step s
+	pickup c
+	write 8
+	drop
+	step e
+	pickup c
+	write 8
+	drop
+	step e
+	pickup c
+	write 9
+	drop
+	b:
+	if w != wall:
+		step w
+		jump b
+	endif
+	c:
+	pickup c
+	write 8
+	drop
+	if n != wall:
+		step n
+		jump c
+	endif
+	end
+endif
+if n == wall and
+ e == wall:
+	d:
+	step w
+	if nw == wall:
+		jump d
+	endif
+	step nw
+	pickup c
+	write 2
+	drop
+	step w
+	pickup c
+	write 2
+	drop
+	step w
+	pickup c
+	write 3
+	drop
+	step w
+	pickup c
+	write 4
+	drop
+	step w
+	pickup c
+	write 5
+	drop
+	step w
+	pickup c
+	write 6
+	drop
+	step w
+	pickup c
+	write 7
+	drop
+	step s
+	pickup c
+	write 7
+	drop
+	step s
+	pickup c
+	write 7
+	drop
+	step s
+	pickup c
+	write 7
+	drop
+	step s
+	pickup c
+	write 8
+	drop
+	e:
+	step s
+	pickup c
+	write 9
+	drop
+	if s != wall:
+		jump e
+	endif
+	end
+endif
+if w == 99 and
+ s == wall:
+	f:
+	step w
+	pickup c
+	write 5
+	drop
+	if n != wall:
+		jump f
+	endif
+	step w
+	pickup c
+	write 6
+	drop
+	step w
+	pickup c
+	write 7
+	drop
+	step w
+	pickup c
+	write 8
+	drop
+	step n
+	pickup c
+	write 8
+	drop
+	step n
+	pickup c
+	write 9
+	drop
+	step ne
+	step e
+	step e
+	g:
+	pickup c
+	write 9
+	drop
+	if w != wall:
+		step w
+		jump g
+	endif
+	h:
+	step s
+	pickup c
+	write 10
+	drop
+	if s != wall:
+		jump h
+	endif
+	end
+endif
+if e == wall and
+ s == wall:
+	i:
+	step w,sw,s
+	if w != wall or
+	 s != wall:
+		jump i
+	endif
+	pickup c
+	write 9
+	drop
+	step e
+	pickup c
+	write 8
+	drop
+	step e
+	pickup c
+	write 7
+	drop
+	j:
+	step e
+	pickup c
+	write 6
+	drop
+	if e != wall:
+		jump j
+	endif
+	end
+endif
+comment 0
+step w
+mem1 = set 2
+if w == 4:
+	mem1 = set 4
+endif
+if nw == 2:
+	mem1 = set 3
+endif
+if c == 99:
+	pickup c
+	write 3
+	drop
+endif
+k:
+if c == 99:
+	pickup c
+	write mem1
+	drop
+endif
+if w == datacube:
+	step w
+	jump k
+endif
+if w == wall and
+ mem1 == 2:
+	l:
+	step n
+	pickup c
+	write 2
+	drop
+	if n != wall:
+		jump l
+	endif
+endif
+
+
+DEFINE COMMENT 0
+eJxjYBgFo2AUjGQAAAQEAAE;
+

@@ -1,0 +1,61 @@
+-- 7 Billion Humans (2214M) --
+-- 15: Shred Lines --
+-- size: 51/9 --
+-- speed: 20/23 --
+
+step n
+pickup n
+step s
+giveto s
+step ne
+step n
+pickup n
+step s
+step s
+giveto s
+step nw
+step nw
+if w == wall:
+	step ne
+else:
+	step n
+endif
+pickup n
+step s
+step s
+step s
+giveto s
+step nw
+if w == wall:
+	step n
+	step ne
+	step n
+	pickup n
+else:
+	step ne
+	step ne
+	step n
+	pickup ne
+endif
+step s
+step s
+step s
+step s
+giveto s
+if e == worker:
+	step w
+endif
+step n
+step n
+step n
+step n
+step ne
+pickup n
+step s
+step s
+step s
+step s
+step s
+giveto s
+
+

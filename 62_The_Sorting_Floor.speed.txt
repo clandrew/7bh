@@ -1,0 +1,138 @@
+-- 7 Billion Humans (2214M) --
+-- 62: The Sorting Floor --
+-- size: 120/48 --
+-- speed: 141/174 --
+
+if n == nothing and
+ w == hole:
+	step n
+	step n
+	step ne
+	a:
+	if nw > n:
+		pickup nw
+		step s
+		step s
+		drop
+		step n
+		step n
+		step nw
+		pickup e
+		drop
+		step se
+		step s
+		pickup s
+		step n
+		step n
+		drop
+		step s
+	endif
+	if n > ne:
+		pickup n
+		step s
+		step s
+		drop
+		step n
+		step n
+		step n
+		pickup e
+		drop
+		step s
+		step s
+		pickup s
+		step n
+		step ne
+		drop
+		step sw
+	endif
+	if ne > w:
+		pickup ne
+		step s
+		step s
+		drop
+		step n
+		pickup nw
+		step n
+		step ne
+		drop
+		step sw
+		step s
+		pickup s
+		step nw
+		drop
+		step e
+	endif
+	if w > c:
+		pickup w
+		step s
+		step s
+		drop
+		step n
+		step nw
+		pickup e
+		drop
+		step se
+		pickup s
+		step n
+		drop
+	endif
+	if c > e:
+		pickup c
+		step s
+		step s
+		drop
+		step n
+		step n
+		pickup e
+		drop
+		step s
+		pickup s
+		step ne
+		drop
+		step w
+	endif
+	if e > sw:
+		pickup e
+		step s
+		step s
+		drop
+		pickup nw
+		step ne
+		step n
+		drop
+		step sw
+		pickup s
+		step w
+		drop
+		step ne
+	endif
+	if sw > s:
+		pickup sw
+		step s
+		step s
+		drop
+		pickup n
+		step nw
+		drop
+		pickup se
+		step e
+		drop
+		step n
+	endif
+	if s > se:
+		pickup s
+		step s
+		step s
+		drop
+		pickup ne
+		step n
+		drop
+		pickup s
+		step e
+		drop
+		step nw
+	endif
+	jump a
+endif
+
+

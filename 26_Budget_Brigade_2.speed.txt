@@ -1,0 +1,39 @@
+-- 7 Billion Humans (2214M) --
+-- 26: Budget Brigade 2 --
+-- size: 19/10 --
+-- speed: 69/70 --
+
+if s == printer:
+	a:
+	takefrom s
+	giveto n
+	jump a
+endif
+if w == hole and
+ e == hole:
+	b:
+	if myitem == datacube:
+		giveto n
+	endif
+	jump b
+endif
+if s == shredder:
+	c:
+	if myitem == datacube:
+		giveto s
+	endif
+	jump c
+endif
+if n == hole:
+	d:
+	if myitem == datacube:
+		if myitem < 50:
+			giveto w
+		else:
+			giveto e
+		endif
+	endif
+	jump d
+endif
+
+

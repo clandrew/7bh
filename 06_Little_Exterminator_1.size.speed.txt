@@ -1,0 +1,16 @@
+-- 7 Billion Humans (2214M) --
+-- 6: Little Exterminator 1 --
+-- size: 9/9 --
+-- speed: 3/4 --
+
+step s
+step sw
+step sw
+step se
+step e
+step se
+step s
+step s
+pickup c
+
+

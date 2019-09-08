@@ -1,0 +1,20 @@
+-- 7 Billion Humans (2214M) --
+-- 40: Printing Etiquette 2 --
+-- size: 10/10 --
+-- speed: 150/55 --
+
+mem1 = nearest printer
+a:
+if myitem == nothing:
+	mem2 = calc mem2 + 1
+endif
+if mem2 == 6:
+	end
+endif
+takefrom mem1
+write mem2
+drop
+step nw,w,sw,n,s,ne,e,se
+jump a
+
+

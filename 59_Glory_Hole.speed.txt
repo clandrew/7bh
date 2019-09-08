@@ -1,0 +1,103 @@
+-- 7 Billion Humans (2214M) --
+-- 59: Glory Hole --
+-- size: 76/7 --
+-- speed: 10/15 --
+
+if e == 2:
+	step e
+	step e
+	if nw == hole:
+		step se
+		step s
+	endif
+	if se == hole:
+		step ne
+		step n
+	endif
+	step e
+endif
+if n == wall:
+	step sw
+	step sw
+	if n == hole:
+		step se
+		step se
+	endif
+	if e == hole:
+		step sw
+		step sw
+	endif
+	step s
+	mem1 = nearest hole
+	step mem1
+endif
+if n == 3 and
+ ne == 3 and
+ e == 4:
+	step ne
+	step ne
+	step n
+	step n
+endif
+if s == wall:
+	step nw
+	step nw
+	if c == nothing and
+	 n == 3:
+		step n
+		step n
+		step ne
+		step ne
+	endif
+	step nw
+	if ne == 2:
+		step n
+		step ne
+		step ne
+	endif
+	step nw
+	step nw
+	mem1 = nearest hole
+	step mem1
+endif
+if e == wall:
+	step sw
+	step s
+	if s == hole:
+		step sw
+		step nw
+		step w
+		step w
+		step w
+		step nw
+		step nw
+		step nw
+		step nw
+	endif
+	if w == hole:
+		a:
+		b:
+		c:
+		step sw
+		step w
+		step nw
+		step nw
+		step w
+		step w
+		step w
+		step nw
+		step nw
+	endif
+	step s
+	jump a
+endif
+step se
+step s
+if se == hole:
+	step s
+	jump b
+endif
+step se
+jump c
+
+

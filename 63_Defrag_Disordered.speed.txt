@@ -1,0 +1,44 @@
+-- 7 Billion Humans (2214M) --
+-- 63: Defrag Disordered --
+-- size: 33/28 --
+-- speed: 12/95 --
+
+mem1 = nearest datacube
+pickup mem1
+step n
+step n
+step n
+if c == datacube:
+	step n
+	step n
+endif
+drop
+step s
+step s
+step s
+step s
+step s
+mem1 = nearest datacube
+pickup mem1
+step nw
+step n
+if c != datacube:
+	drop
+endif
+if ne == nothing:
+	step e
+	pickup se
+	step ne
+	step e
+	drop
+else:
+	step ne
+	step e
+	if c != datacube:
+		drop
+	endif
+	step e
+	drop
+endif
+
+

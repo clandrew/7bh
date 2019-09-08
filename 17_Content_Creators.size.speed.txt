@@ -1,0 +1,8 @@
+-- 7 Billion Humans (2214M) --
+-- 17: Content Creators --
+-- size: 1/1 --
+-- speed: 2/3 --
+
+pickup s
+
+

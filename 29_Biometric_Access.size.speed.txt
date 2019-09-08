@@ -1,0 +1,13 @@
+-- 7 Billion Humans (2214M) --
+-- 29: Biometric Access --
+-- size: 5/5 --
+-- speed: 60/61 --
+
+mem1 = nearest shredder
+a:
+mem2 = nearest datacube
+pickup mem2
+giveto mem1
+jump a
+
+

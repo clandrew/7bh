@@ -1,0 +1,28 @@
+-- 7 Billion Humans (2214M) --
+-- 33: Data Backup Day --
+-- size: 7/8 --
+-- speed: 15/3 --
+
+a:
+comment 0
+mem1 = nearest datacube
+drop
+mem2 = set c
+pickup mem1
+if myitem > mem2:
+	write mem2
+endif
+jump a
+
+
+DEFINE COMMENT 0
+eJztkk9LVGEUxn+7IAoSgnDRogyhTUELF+NlKnCVEqIxhZiJkIhEi5CI7M+zKNwIQQWFxCSTDSYmwzSj
+NoxSZv8kxaYIq5GkvkAfoee9+RladS4/7st7znnuc973ZgFt4RhbSbKNSNtJagfHqSFlxryeVg3z2smC
+dpla5qmlROjbzUXtYZS9TFLHlOrIm1nto6R61+xnmgOM6iDDRl5fMgOhl6Nc0GH6FdFPIwNKcMWk1ci4
+kuR0hLxd5WlmymTinmYOmQRt1knZW8r5EKfpU4c5yTlOWL/d+XZ/r5PbnGGEs4zRa4Lna5xnkJQue85B
+a12nQaKBG55/iDYN0aOb9nSVvrj+lvfv0Kq7dJle/LZqqwn7kdWj2MO43T5xLkSG+vj9jBYVfJYzZpYW
+ntNkIookvJ80HV53aYZuvaSbBTsO8dZzvrf+B06ZTpatu0yPaWLF/Z98T5+d/2rd785VPXfw+su535t+
+7vkcR3z2D0j7htLKeP5HdvnY55n1nWZZ0QRVPeUnBVNkQ0UrhXjIkmdZIseicryI98p+XlPWGwp6xYTm
+TNl3XrbOHBXnKnHdavyU+OhchUmtmW/+L6ruX2fRvLPnVb64vuLp/vaINeSaYa1znx+b3/wf/yT+AJZF
+utQ;
+

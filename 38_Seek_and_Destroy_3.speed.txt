@@ -1,0 +1,107 @@
+-- 7 Billion Humans (2214M) --
+-- 38: Seek and Destroy 3 --
+-- size: 73/22 --
+-- speed: 30/33 --
+-- Note: not 100% correct (23/25)
+
+if s == shredder:
+	mem2 = nearest shredder
+	step se
+	step e
+	step e
+	step e
+	step e
+	step e
+	step e
+	step e
+	step e
+	step ne
+	a:
+	if sw != datacube:
+		jump a
+	endif
+	step n
+	step s
+	step sw
+	mem1 = set c
+	step w
+	if c < mem1:
+		mem1 = set c
+	endif
+	step w
+	if c < mem1:
+		mem1 = set c
+	endif
+	step w
+	if c < mem1:
+		mem1 = set c
+	endif
+	step w
+	if c < mem1:
+		mem1 = set c
+	endif
+	step w
+	if c < mem1:
+		mem1 = set c
+	endif
+	step w
+	if c < mem1:
+		mem1 = set c
+	endif
+	if e < mem1:
+		mem1 = set w
+	endif
+	pickup mem1
+	giveto mem2
+	end
+endif
+step n
+step n
+mem1 = set c
+step n
+if c < mem1:
+	mem1 = set c
+endif
+step n
+if c < mem1:
+	mem1 = set c
+endif
+step n
+if c < mem1:
+	mem1 = set c
+endif
+step n
+if c < mem1:
+	mem1 = set c
+endif
+step n
+if c < mem1:
+	mem1 = set c
+endif
+step n
+if c < mem1:
+	mem1 = set c
+endif
+if n < mem1:
+	mem1 = set n
+endif
+comment 1
+pickup mem1
+b:
+if s != wall:
+	step s
+	jump b
+endif
+c:
+if e == hole or
+ e == datacube:
+	drop
+	step n
+	end
+endif
+jump c
+
+
+DEFINE COMMENT 1
+eJxjYBgFo2AUjGQAAAQEAAE;
+

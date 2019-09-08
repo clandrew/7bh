@@ -1,0 +1,219 @@
+-- 7 Billion Humans (2214M) --
+-- 40: Printing Etiquette 2 --
+-- size: 207/10 --
+-- speed: 43/55 --
+
+if nw == worker and
+ ne == worker:
+	step sw
+	takefrom sw
+	step n
+	step n
+	step n
+	step nw
+	write 1
+	drop
+	step se
+	step s
+	step s
+	step s
+	takefrom s
+	step n
+	step n
+	step n
+	step n
+	write 2
+	drop
+	step s
+	step s
+	step s
+	step s
+	takefrom s
+	step n
+	step n
+	step n
+	write 3
+	drop
+	step s
+	step s
+	step s
+	takefrom s
+	step n
+	step n
+	write 4
+	drop
+	step s
+	step s
+	takefrom s
+	step ne
+	step n
+	write 5
+	drop
+	end
+endif
+step nw
+if nw != nothing:
+	step sw
+	step se
+	step se
+	step se
+	takefrom se
+	step nw
+	step n
+	step nw
+	write 1
+	drop
+	step se
+	step s
+	step s
+	takefrom se
+	step nw
+	step n
+	step n
+	write 2
+	drop
+	step s
+	step s
+	step s
+	takefrom se
+	step nw
+	step n
+	step n
+	step nw
+	write 3
+	drop
+	step s
+	step s
+	step se
+	step s
+	takefrom se
+	step nw
+	step n
+	write 4
+	drop
+	step s
+	step s
+	takefrom se
+	step nw
+	write 5
+	drop
+	end
+endif
+step se
+step se
+if se == wall:
+	step nw
+	step w
+	step w
+	step w
+	takefrom sw
+	step e
+	step e
+	step e
+	write 1
+	drop
+	step w
+	step w
+	takefrom sw
+	step ne
+	step e
+	step e
+	write 2
+	drop
+	step sw
+	step sw
+	takefrom w
+	step ne
+	step ne
+	write 3
+	drop
+	step sw
+	step sw
+	takefrom s
+	step ne
+	step e
+	write 4
+	drop
+	step w
+	step sw
+	takefrom s
+	write 5
+	drop
+	end
+endif
+step sw
+if sw == printer:
+	takefrom sw
+	step nw
+	step w
+	step w
+	step w
+	write 1
+	drop
+	step e
+	step e
+	step e
+	step se
+	takefrom s
+	step nw
+	step w
+	step w
+	step nw
+	write 2
+	drop
+	step se
+	step se
+	step e
+	takefrom se
+	step nw
+	step nw
+	step w
+	write 3
+	drop
+	step se
+	step se
+	takefrom se
+	step w
+	step w
+	step nw
+	write 4
+	drop
+	step se
+	step e
+	takefrom se
+	step w
+	step nw
+	write 5
+	drop
+	end
+else:
+	step sw
+	step nw
+	takefrom sw
+	step se
+	step e
+	write 1
+	drop
+	step nw
+	takefrom sw
+	step se
+	write 2
+	drop
+	takefrom w
+	step se
+	step ne
+	write 3
+	drop
+	step w
+	takefrom sw
+	step e
+	write 4
+	drop
+	takefrom sw
+	step sw
+	write 5
+	drop
+	end
+endif
+
+

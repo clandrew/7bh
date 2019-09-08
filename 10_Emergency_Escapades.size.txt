@@ -1,0 +1,22 @@
+-- 7 Billion Humans (2214M) --
+-- 10: Emergency Escapades --
+-- size: 9/9 --
+-- speed: 208/25 --
+
+a:
+if c != datacube or
+ c == 4:
+	step w
+endif
+if c == 2:
+	step e
+endif
+if c == 3:
+	step s
+endif
+if c == 1:
+	step n
+endif
+jump a
+
+

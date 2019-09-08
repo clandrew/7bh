@@ -1,0 +1,210 @@
+-- 7 Billion Humans (2214M) --
+-- 67: Decimal Doubler --
+-- size: 158/25 --
+-- speed: 331/250 --
+
+step s
+if s == button:
+	listenfor coffeetime
+	step e
+	step w
+	step e
+	step w
+	step e
+	step w
+	step e
+	step w
+	step e
+	step w
+	step e
+	step w
+	step e
+	step w
+	step e
+	step w
+	step e
+	step w
+	step e
+	step w
+	step e
+	step w
+	step e
+	step w
+	step e
+	step w
+	step e
+	step w
+	step e
+	step w
+	step e
+	step w
+	step e
+	step w
+	step e
+	step w
+	step e
+	step w
+	step e
+	step w
+	step e
+	step w
+	step e
+	step w
+	step e
+	step w
+	step e
+	step w
+	step e
+	step w
+	step e
+	step w
+	step e
+	step w
+	step e
+	step w
+	step e
+	step w
+	step e
+	step w
+	step e
+	step w
+	step e
+	step w
+	step e
+	step w
+	a:
+	step s
+	step n
+	step e
+	step w
+	step e
+	step w
+	step e
+	step w
+	step e
+	step w
+	step e
+	step w
+	step e
+	step w
+	step e
+	step w
+	step e
+	step w
+	step e
+	step w
+	step e
+	step w
+	step e
+	step w
+	step e
+	step w
+	step e
+	step w
+	step e
+	step w
+	step e
+	step w
+	step e
+	step w
+	step e
+	step w
+	jump a
+endif
+if c == datacube:
+	comment 1
+	step s
+	pickup n
+	drop
+	comment 0
+	if e == switch:
+		b:
+		if e != datacube or
+		 e == 0:
+			jump b
+		endif
+		pickup c
+		mem1 = calc e + 1
+		write mem1
+		drop
+		if w != switch:
+			tell everyone coffeetime
+		else:
+			listenfor coffeetime
+		endif
+	else:
+		listenfor coffeetime
+	endif
+	mem4 = set 1
+	if mem1 > 1:
+		mem4 = calc mem4 x 10
+	else:
+		mem4 = calc mem4 + 0
+	endif
+	if mem1 > 2:
+		mem4 = calc mem4 x 10
+	else:
+		mem4 = calc mem4 + 0
+	endif
+	if mem1 > 3:
+		mem4 = calc mem4 x 10
+	else:
+		mem4 = calc mem4 + 0
+	endif
+	if mem1 > 4:
+		mem4 = calc mem4 x 10
+	else:
+		mem4 = calc mem4 + 0
+	endif
+	if mem1 > 5:
+		mem4 = calc mem4 x 10
+	else:
+		mem4 = calc mem4 + 0
+	endif
+	if mem1 > 6:
+		mem4 = calc mem4 x 10
+	else:
+		mem4 = calc mem4 + 0
+	endif
+	mem2 = set 1
+	c:
+	mem3 = calc mem2 / mem4
+	comment 4
+	mem1 = calc mem3 / 10
+	mem1 = calc mem1 x 10
+	mem1 = calc mem3 - mem1
+	pickup c
+	write mem1
+	drop
+	comment 2
+	mem2 = calc mem2 x 2
+	jump c
+endif
+
+
+DEFINE COMMENT 0
+eJztkUFLlGEUhZ91RAtXriJINCJEEW0QsUklZlTEFEw0tMaQoURlGIZBRjiILWyIXBSKQpiIRJCIukxx
+E9HCgSzb5W4oBQv7BZ7vw18RHXjgfb/v3nsu580Dqqeem9TpOnXc4A5VdFHDgG+jREgrQk61iGqmdI0p
+KpDKyOoqKQLdIkmMpGLcp4V2mmlXlD6T4jZZmtzfSi6sjdsnTqXaKNddLqubK+qx6wCdPGCYh0yY1yRY
+UoIVDbGqYVZ5wjJjLGiMl+GceyTUbwbdOWQCTdv7KVvheZIGiYjy5gVRZonpuT2e0atpOwWaoUQzXCLP
+Rc1ygVeUMEcp85SZBAukWSTjbTIsOYdlRs2joFVvaNQKjbxzSmtmgxZtev4WPSYZzt+gl7chKddl9N6s
+ec662XS2gT55549EtWt2POMDnSapbf/fdd1n7xCo4Gy/mQPPO3DK+/b84iwLNLDn9Pe8V4HH/p7mq/nu
+HH+YQ+d/yHg4469f4o9zOTHHftlfzqbo/qK9i7T63qEj7//beZ4yYtI+ZzkyP8/3+K9/Tmcyco7E;
+
+DEFINE COMMENT 1
+eJztkNtKQlEQhr9Xqguhkx2InUi4yWR7wLwQM4nYRXRhpjaJmSciIhUj8FZBKnrCfncP0Y0DH6w1a+Zf
+808eRYSw7RJiQ6yzKQ519tgmbw7XdkBFtGyfV9UNbYshazxbiL6t0mSFuqgspMzFNw+fNOeWJmcpPEuS
+sGMSxHV2yeFK16XKkXqTvFhGZOlyovsiCmTslBuKyi00z4hYCYcLHPOJC88uVXNFQfz1tIgKh0d2lAnb
+g3xUxS17lOXnjiw1/VuX+pPoULKefPVoWEedTfrcy0+NprBAcyBfA807ImZjovauPz6IMZGvCUVR1r3N
+mLaNtJ8BDdUHe2Aqz1NSzHgLPEy1jxkl5ppjrvyn3r/k4Vsz/Si/jGX8U/wC23Fj4w;
+
+DEFINE COMMENT 2
+eJztkE1LQkEYhZ//0ReEbYQkIsx1ictIkqAQEbObmElQ3Iys3oVJiJltRCNCJFpE+3BZbtpWi1b9l869
++RtaeeC5M3PPO3PmHQewADmRtmmSNiUmSDFOljGKom6TtAnQthnqeJpl30JUWaBLmK4tck9ENREKnm1L
+lCxKy69dJmsxMv58BdfWuPPncWXG5W0oZ3O4bwsjj1meskaXHX0dsU3RMlRFQzUtrdu2q7y9vww7ICUy
+dogjCtrpcsSl77nKPlY/ZZKcijPSosT50D8hqNSAXYgaIXUYtisi1iAmKjSV0aTHDQ90xC0966hfTzUK
+dk1ON8n56z7zImpvqhrw6J8/ICjm7J1VPnny/z3rHn3W7ZWEfZDgW56nFyr2JX70tiON9E/6BSftYzk;
+
+DEFINE COMMENT 4
+eJxjYBgFo2AUjGQAAAQEAAE;
+

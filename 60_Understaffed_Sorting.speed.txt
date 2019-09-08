@@ -6,7 +6,8 @@
 a:
 if sw > s and
  sw == datacube and
- s == datacube:
+ s == datacube and
+ w != worker:
 	step w
 endif
 if s > se and
@@ -25,5 +26,6 @@ if s > se and
 endif
 step w,e
 jump a
+
 
 

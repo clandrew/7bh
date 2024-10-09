@@ -1,22 +1,18 @@
--- 7 Billion Humans (2214M) --
+-- 7 Billion Humans (2235) --
 -- 50: Cubical Communication --
--- size: 11/12 --
--- speed: 117/60 --
+-- size: 10/12 --
+-- speed: 59/60 --
 
+mem1 = nearest printer
+mem2 = nearest shredder
+mem3 = set sw
 a:
-mem1 = calc mem1 + 1
-if mem1 < sw:
-	listenfor hi
-	jump a
+mem4 = calc mem4 + 1
+if mem3 == mem4:
+    takefrom mem1
+    giveto mem2
 endif
-b:
-step e
-if mem2 < 5:
-	takefrom sw
-	giveto se
-	mem2 = calc mem2 + 1
-	jump b
+if mem4 == 5:
+    mem4 = set 0
 endif
-tell everyone hi
-
-
+jump a

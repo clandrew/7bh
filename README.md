@@ -1,6 +1,8 @@
 # 7 Billion Humans Solutions                                                                                                                                                                                                                                                                    
                                                                                                                                                                                                                                                                                                 
-These are my solutions to the programming-themed game "7 Billion Humans".                                                                                                                                                                                                                       
+These are my solutions to the programming-themed game "7 Billion Humans".           
+
+Note: These are my own solutions. I'm not accepting PRs of others' solutions.
                                                                                                                                                                                                                                                                                                 
 You can import them into the game by selecting the code and then clicking the "Paste" button on the game's editor. Some of the solutions are set up with size and speed optimizations in separate programs.                                      
                                                                                                                                                                                                                                                                                                 
